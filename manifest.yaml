@@ -21,14 +21,6 @@ resource:
   permission:
     tool:
       enabled: true
-    model:
-      enabled: false
-    endpoint:
-      enabled: false
-    app:
-      enabled: false
-    storage:
-      enabled: false
 plugins:
   tools:
     - provider/publicrecords.yaml
