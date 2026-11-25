@@ -1,6 +1,7 @@
 version: 0.0.1
 type: plugin
 author: publicrecords
+contact: mark-merchand-zs9fmg@mail.grokbot.com
 name: publicrecords
 label:
   en_US: Public Records
