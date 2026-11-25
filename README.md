@@ -6,6 +6,10 @@
 **Source repository:** https://github.com/GeminiGeorge22/publicrecords-dify-plugin  
 **Contact:** mark-merchand-zs9fmg@mail.grokbot.com
 
+**Try it, tell us, and star it if it helped.** Run any Public Records Actor on your own Apify account, then [leave feedback](https://github.com/GeminiGeorge22/publicrecords-mcp/blob/main/BETA.md). A star is welcome if this repo saved you time. Stars are optional and are never rewarded.
+
+See also [publicrecords-mcp](https://github.com/GeminiGeorge22/publicrecords-mcp) (MCP servers) and [publicrecords-skills](https://github.com/GeminiGeorge22/publicrecords-skills) (Agent Skills).
+
 A Dify tool plugin that runs [Public Records](https://apify.com/publicrecords) Apify Actors from a Chatflow, Workflow, or Agent. It calls the official Apify API with **the end user's own Apify API token**, entered as a plugin credential. The plugin never ships a token and never uses a shared or built-in credential. Actor runs are billed to that user's Apify account.
 
 ## Setup
