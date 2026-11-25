@@ -1,0 +1,19 @@
+identity:
+  name: list_actors
+  author: publicrecords
+  label:
+    en_US: List Public Records Actors
+    zh_Hans: 列出 Public Records Actors
+    pt_BR: Listar Actors Public Records
+    ja_JP: Public Records Actor を一覧表示
+description:
+  human:
+    en_US: Lists the allowlisted Public Records Apify Actors this plugin can run, with store URLs and short descriptions.
+    zh_Hans: 列出此插件可运行的 Public Records Apify Actors，包含商店链接和简短说明。
+    pt_BR: Lista os Actors Public Records da Apify que este plugin pode executar, com URLs da loja e descrições curtas.
+    ja_JP: このプラグインが実行できる Public Records の Apify Actor とストア URL、短い説明を一覧します。
+  llm: List the allowlisted Public Records Apify Actors that this plugin can run. Use this first when you need actor IDs, store URLs, or a short description of each actor.
+parameters: []
+extra:
+  python:
+    source: tools/list_actors.py

@@ -1,0 +1,47 @@
+identity:
+  author: publicrecords
+  name: publicrecords
+  label:
+    en_US: Public Records
+    zh_Hans: Public Records
+    pt_BR: Public Records
+    ja_JP: Public Records
+  description:
+    en_US: Run Public Records Apify Actors with your own Apify API token. Billing stays on your Apify account.
+    zh_Hans: 使用您自己的 Apify API 令牌运行 Public Records Actors。费用记在您的 Apify 账户上。
+    pt_BR: Execute Actors Public Records com o seu próprio token da API Apify. A cobrança permanece na sua conta Apify.
+    ja_JP: ご自身の Apify API トークンで Public Records の Actor を実行します。課金はご自身の Apify アカウントに残ります。
+  icon: icon.png
+  tags:
+    - search
+    - productivity
+
+credentials_for_provider:
+  apify_api_token:
+    type: secret-input
+    required: true
+    label:
+      en_US: Apify API token
+      zh_Hans: Apify API 令牌
+      pt_BR: Token da API Apify
+      ja_JP: Apify API トークン
+    placeholder:
+      en_US: Paste your own Apify API token
+      zh_Hans: 粘贴您自己的 Apify API 令牌
+      pt_BR: Cole o seu próprio token da API Apify
+      ja_JP: ご自身の Apify API トークンを貼り付けてください
+    help:
+      en_US: Create a token in the Apify Console (Settings → Integrations). This plugin never uses a shared or built-in token. Runs are billed to your Apify account.
+      zh_Hans: 在 Apify 控制台（Settings → Integrations）创建令牌。此插件从不使用共享或内置令牌。运行费用记在您的 Apify 账户上。
+      pt_BR: Crie um token no Console da Apify (Settings → Integrations). Este plugin nunca usa um token compartilhado ou embutido. As execuções são cobradas na sua conta Apify.
+      ja_JP: Apify Console の Settings → Integrations でトークンを作成してください。このプラグインは共有トークンや組み込みトークンを使いません。実行料金はご自身の Apify アカウントに課金されます。
+    url: https://console.apify.com/settings/integrations
+
+tools:
+  - tools/list_actors.yaml
+  - tools/run_actor.yaml
+  - tools/get_dataset_items.yaml
+
+extra:
+  python:
+    source: provider/publicrecords.py

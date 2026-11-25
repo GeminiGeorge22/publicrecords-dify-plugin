@@ -1,0 +1,10 @@
+[project]
+name = "publicrecords"
+version = "0.0.1"
+description = "Dify tool plugin for Public Records Apify Actors. Uses the end user's own Apify API token."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "dify_plugin>=0.10.2,<1.0.0",
+    "requests>=2.32.0,<3.0.0",
+]
